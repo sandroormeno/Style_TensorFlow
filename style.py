@@ -390,7 +390,7 @@ def style_transfer(content_image, style_image,
             #            style_image=style_image,
             #            mixed_image=mixed_image)
             #plot_image_sandro(mixed_image)
-            nombre = "images/image_sandro_"+str(i)+".jpg"
+            nombre = "images/image_style_"+str(i)+".jpg"
             save_image(mixed_image, nombre)
             
     print()
@@ -408,7 +408,7 @@ content_filename = 'images/sandro.jpg'
 content_image = load_image(content_filename, max_size=None)
 
 
-style_filename = 'images/570.jpg'
+style_filename = 'images/foto23a.jpg'
 style_image = load_image(style_filename, max_size=300)
 
 content_layer_ids = [4]
